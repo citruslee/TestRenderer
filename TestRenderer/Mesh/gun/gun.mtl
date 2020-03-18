@@ -1,0 +1,16 @@
+# Blender MTL File: 'Prop_Radio_Old_01.blend'
+# Material Count: 1
+
+newmtl RetroRadio_baked
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.176196 0.176196 0.176196
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump F4r3l_Sci_Fi_Rifle_Normal.jpg
+map_Kd F4r3l_Sci_Fi_Rifle_BaseColor.jpg
+map_Ns F4r3l_Sci_Fi_Rifle_Roughness.jpg
+map_Ka F4r3l_Sci_Fi_Rifle__Metalness.jpg

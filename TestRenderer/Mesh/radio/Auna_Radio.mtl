@@ -1,0 +1,17 @@
+# Blender MTL File: 'Prop_Radio_Old_01.blend'
+# Material Count: 1
+
+newmtl RetroRadio_baked
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.176196 0.176196 0.176196
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump AunaRadio_Tex_Normal.png
+map_Kd AunaRadio_Tex_Diffuse.png
+map_Ns AunaRadio_Tex_Roughness.png
+map_Ka AunaRadio_Tex_Metal.png
+
