@@ -159,7 +159,11 @@ void Generator::SSineDist::OnUpdate(float Time)
 	STextureNode::OnUpdate(Time);
 }
 
-Generator::FTexGen::FTexGen(FRenderer& Renderer): InternalRenderer(Renderer)
+Generator::FTexGen::FTexGen(FRenderer& Renderer)  :
+	bIsDirty(false),
+	bIsOutputUpdated(false),
+	InternalRenderer(Renderer),
+	GraphEntryPoint(nullptr)
 {
 }
 

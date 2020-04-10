@@ -36,6 +36,7 @@ EErrorCode FModel::Initialize(const char* Path, const uint32_t Width, const uint
 		aiProcess_OptimizeMeshes |
 		aiProcess_OptimizeGraph |
 		aiProcess_JoinIdenticalVertices |
+		aiProcess_GenNormals |
 		aiProcess_FindDegenerates);
 	
 	if (!Scene || Scene->mFlags & AI_SCENE_FLAGS_INCOMPLETE || !Scene->mRootNode)
